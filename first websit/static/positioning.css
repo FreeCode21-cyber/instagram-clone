@@ -1,0 +1,60 @@
+
+
+.logo {
+  position: absolute;
+  top: 0;        
+  left: 50%;     
+  transform: translateX(-50%);
+}
+.login-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; /* Dead center vertically */
+    align-items: center;     /* Dead center horizontally */
+    min-height: 100vh;       /* Spans the full height of the viewport */
+    width: 100%;
+}
+
+.username-bar {
+    display: flex;
+    flex-direction: column; /* Stacks username and password vertically */
+    justify-content: center; /* Centers them vertically on the screen */
+    align-items: center;    /* Centers them horizontally on the screen */
+    width: 300px;
+    height: 36px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.password-bar {
+    width: 300px;
+    height: 36px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    margin-bottom: 6px;
+    padding: 9px 12px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+.login-text{
+    position: absolute;
+    top: 20px;
+	left: 20px;
+}
+.password-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+}
+.login-button{
+    background: skyblue;
+    border: 2px solid blue;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
